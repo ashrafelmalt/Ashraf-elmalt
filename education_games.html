@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الألعاب التعليمية</title>
+    <link rel="stylesheet" href="css/games.css">
+</head>
+<body>
+    <header>
+        <h1>الألعاب التعليمية</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="#games">الألعاب</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="games">
+        <h2>اختر لعبة تعليمية</h2>
+        <div class="games-container">
+            <div class="game">
+                <h3>لعبة الرياضيات</h3>
+                <p>اختبر مهاراتك الحسابية من خلال هذه اللعبة الممتعة.</p>
+                <button onclick="startMathGame()">ابدأ اللعبة</button>
+            </div>
+            <div class="game">
+                <h3>لعبة العلوم</h3>
+                <p>تعلم معلومات علمية بطريقة ممتعة.</p>
+                <button onclick="startScienceGame()">ابدأ اللعبة</button>
+            </div>
+            <div class="game">
+                <h3>لعبة الكلمات</h3>
+                <p>اختبر مفرداتك اللغوية بطريقة تفاعلية.</p>
+                <button onclick="startWordGame()">ابدأ اللعبة</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 معاذ التعليمية</p>
+    </footer>
+
+    <script>
+        function startMathGame() {
+            alert("يتم تشغيل لعبة الرياضيات...");
+        }
+        function startScienceGame() {
+            alert("يتم تشغيل لعبة العلوم...");
+        }
+        function startWordGame() {
+            alert("يتم تشغيل لعبة الكلمات...");
+        }
+    </script>
+</body>
+</html>

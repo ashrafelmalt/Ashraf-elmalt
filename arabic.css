@@ -1,0 +1,107 @@
+body { font-family: 'Cairo', sans-serif;
+  background-color: #f8f9fa;
+  color: #333; margin: 0; 
+  padding-top: 60px; }
+
+/* تنسيق الهيدر */
+header { background: linear-gradient(to right, #4c8baf, #2E7D32);
+  color: white;
+  padding: 10px; 
+  text-align: center;
+  font-size:10px; 
+  font-weight: bold; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  position: fixed;
+  width: 95%;
+  top: 0%;
+  border-radius: 25px;
+  margin: auto;
+  }
+a {
+ text-decoration: none;
+ 
+}     
+
+nav ul {
+ padding:0; 
+ text-align: center;
+ list-style-type: none;}
+
+nav ul li { display: inline; 
+ margin: 0 15px; }
+
+nav ul li a { color: white; 
+ text-decoration: none; 
+ font-size: 20px; 
+ transition: color 0.3s;}
+
+
+nav ul li a:hover { color: #060c43;
+ font-size: 25px; 
+
+}
+/* تنسيق الأقسام */
+.one ul li a:hover{
+  font-size: 40px;
+  color: #f0f6f1;
+}
+.one ul li:hover{
+ background: #060c43;
+}
+section { margin: 60px auto; 
+  padding: 20px;
+  color: #f8f9fa; 
+  width: 90%; 
+  text-decoration: none;
+  max-width: 800px; 
+  background: rgb(0, 90, 117); 
+  border-radius: 25px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+  list-style: none;
+  position:static;
+}
+section ul li a{
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(34, 30, 217);
+} 
+section ul li{
+  list-style: none;
+  background: #4c8baf;
+  margin: 10px;
+  border-radius: 20px;
+}  
+
+h2 { color: #f0f6f1; 
+  font-size: 22px; 
+  margin-bottom: 10px; }
+
+p { font-size: 16px; 
+  color: #fdfcfc; }
+
+/* تنسيق الأزرار */ 
+button { background: #4CAF50; 
+  color: white; 
+  padding: 12px 20px; 
+  border: none; 
+  border-radius: 15px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background 0.3s, transform 0.2s; }
+
+button:hover { background: #388E3C; 
+  transform: scale(1.05); }
+
+/* تنسيق الفوتر */ 
+footer { background: #2e6d7d; 
+  color: rgb(251, 247, 247); 
+  text-align: center; 
+  padding: 0px; 
+  position: fixed; 
+  bottom: 0px; 
+  width: 100%;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); }
+
+

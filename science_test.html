@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار العلوم - برنامج تعليمي </title>
+    <link rel="stylesheet" href="css/science.css">
+</head>
+<body>
+    <header>
+        <h1>اختبار العلوم - برنامج تعليمي </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" >الرئيسيه</a></li>
+                <li><a href="#lessons">الدروس</a></li>
+                <li><a href="#exercises">التدريبات</a></li>
+                <li><a href="#quiz">اختبار العلوم</a></li>
+                <li><a href="#progress">التقدم</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="lessons">
+        <h2>الدروس</h2>
+        <p>اختر الدرس الذي تريد تعلمه:</p>
+        <ul class="nav">
+            <li class="dropdown">
+                <a href="#">الوحده الاولي</a>
+                <ul class="dropdown-menu">
+                    <li><a href="lesson1.html">الدرس الاول (الفلزات و الافلزات)</a></li>
+                    <li><a href="#">الدرس الثاني (الحماض و القلويات)</a></li>
+                    <li><a href="#">  الدرس الثالث(الادله الكيميائيه و الاملاح)</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">الوحده الثانيه</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"> الدرس الاول (طاقه الوضع)</a></li>
+                    <li><a href="#"> الدرس الثاني(طاقه الحركه)</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">الوحده الثالثه</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"> الدرس الاول(العلاقه الغذائيه في الجماعات الحيويه)</a></li>
+                    <li><a href="#"> الدرس الثاني (الصفات الوراثيه والطفرات)</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">الوحده الرابعه</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"> الدرس الاول(دوره الماء)</a></li>
+                    <li><a href="#">الدرس الثاني (دوره الصخور ) </a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="progress">
+        <h2>متابعة التقدم</h2>
+        <p>انظر إلى مستوى تقدمك في مادة العلوم</p>
+        <button onclick="checkProgress()">عرض التقدم</button>
+    </section>
+
+    <footer>
+        <p>© 2025 معاذ التعليمية</p>
+    </footer>
+    <script src="script/science_text.js"></script>
+</body>
+</html>
